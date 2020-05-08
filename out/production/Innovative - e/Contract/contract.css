@@ -1,0 +1,13 @@
+#con_pane, #con_pane1, #con_pane2{
+    -fx-background-image : url("tech.jpg");
+    -fx-background-size : cover;
+    -fx-opacity : 1.0;
+}
+#addcon, #Main, #delcon, #upcon, #Main1, #search, #con_ref, #upcon1{
+    -fx-background-color : orange;
+    -fx-color : white;
+    -fx-cursor : pointer;
+    -fx-color : white;
+    -fx-border-width : 2px;
+    -fx-border-radius : 350px;
+}

@@ -1,0 +1,44 @@
+#emp_pane ,#con_pane, #cus_pane, #role_pane{
+    -fx-background-image : url("login.jpg") no-repeat;
+    -fx-background-size : cover;
+    -fx-opacity : 1.0;
+}
+#employee, #contract, #cus_table, #role_table{
+    -fx-background-color : lightgrey;
+
+
+}
+#add_emp, #del_emp, #update_emp, #add_proj_leader, #emp_refresh, #emp_back{
+    -fx-background-color : orange;
+    -fx-color : white;
+    -fx-cursor : pointer;
+    -fx-color : white;
+    -fx-border-width : 2px;
+    -fx-border-radius : 50px;
+}
+#add_con, #del_con, #up_con, #con_ref, #con_back{
+    -fx-background-color : orange;
+    -fx-color : white;
+    -fx-cursor : pointer;
+    -fx-color : white;
+    -fx-border-width : 2px;
+    -fx-border-radius : 50px;
+
+}
+#cus_back, #cus_add, #del_cus, #up_cus, #con_add, #cus_refresh{
+    -fx-background-color : orange;
+    -fx-color : white;
+    -fx-cursor : pointer;
+    -fx-color : white;
+    -fx-border-width : 2px;
+    -fx-border-radius : 50px;
+
+}
+#role_back, #role_add, #role_delete, #role_update, #role_refresh{
+    -fx-background-color : orange;
+    -fx-color : white;
+    -fx-cursor : pointer;
+    -fx-color : white;
+    -fx-border-width : 2px;
+    -fx-border-radius : 50px;
+}

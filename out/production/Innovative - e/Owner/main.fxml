@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="main" prefHeight="682.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Owner.owner">
+   <children>
+      <Label alignment="CENTER" layoutX="122.0" layoutY="43.0" prefHeight="94.0" prefWidth="378.0" text="Choose Your Option" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold Italic" size="38.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+      <ImageView fitHeight="151.0" fitWidth="227.0" layoutX="51.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Login/employee.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="151.0" fitWidth="206.0" layoutX="387.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Login/customer.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="217.0" layoutX="362.0" layoutY="476.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Login/role.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="282.0" layoutX="82.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Login/contract.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="employee" layoutX="82.0" layoutY="353.0" mnemonicParsing="false" onAction="#OnClickEmployee" prefHeight="51.0" prefWidth="165.0" text="Employee">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font></Button>
+      <Button fx:id="customer" layoutX="384.0" layoutY="353.0" mnemonicParsing="false" onAction="#OnClickCustomer" prefHeight="51.0" prefWidth="165.0" text="Customer">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font></Button>
+      <Button fx:id="contract" layoutX="93.0" layoutY="617.0" mnemonicParsing="false" onAction="#OnClickContract" prefHeight="51.0" prefWidth="165.0" text="Contract">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font></Button>
+      <Button fx:id="role" layoutX="404.0" layoutY="617.0" mnemonicParsing="false" onAction="#OnClickRole" prefHeight="51.0" prefWidth="165.0" text="Role">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

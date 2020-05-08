@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="con_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="851.0" prefWidth="1188.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Contract.contract">
+   <children>
+      <Button fx:id="con_back" layoutX="33.0" layoutY="23.0" mnemonicParsing="false" onAction="#mainpage" prefHeight="42.0" prefWidth="140.0" text="Go Back">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="con_ref" layoutX="947.0" layoutY="718.0" mnemonicParsing="false" onAction="#refresh" prefHeight="49.0" prefWidth="213.0" text="Refresh">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="up_con" layoutX="435.0" layoutY="715.0" mnemonicParsing="false" onAction="#update_contract" prefHeight="56.0" prefWidth="195.0" text="Update Contract">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="del_con" layoutX="228.0" layoutY="715.0" mnemonicParsing="false" onAction="#delete_contract" prefHeight="56.0" prefWidth="195.0" text="Delete Contract">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="add_con" layoutX="33.0" layoutY="715.0" mnemonicParsing="false" onAction="#add_contract" prefHeight="56.0" prefWidth="180.0" text="Add Contract">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="con_search" layoutX="33.0" layoutY="86.0" prefHeight="49.0" prefWidth="368.0" promptText="Search Contract By ID">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </TextField>
+      <TableView fx:id="table" layoutX="33.0" layoutY="180.0" prefHeight="492.0" prefWidth="1134.0">
+         <columns>
+            <TableColumn fx:id="tableid" prefWidth="113.0" text="Contract ID" />
+            <TableColumn fx:id="tablename" prefWidth="142.0" text="Contract Name" />
+            <TableColumn fx:id="tabledob" prefWidth="155.0" text="Contract Description" />
+            <TableColumn fx:id="tableemail" prefWidth="182.0" text="Contract Creation Date" />
+            <TableColumn fx:id="tabletp" prefWidth="157.0" text="Contract Job Type" />
+            <TableColumn fx:id="tableres" prefWidth="161.0" text="Customer ID" />
+            <TableColumn fx:id="tableproj" prefWidth="222.0" text="Project Leader (Emp ID Num)" />
+         </columns>
+      </TableView>
+      <ImageView fitHeight="150.0" fitWidth="195.0" layoutX="542.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Login/contract.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="search" layoutX="423.0" layoutY="89.0" mnemonicParsing="false" onAction="#searchContract" prefHeight="44.0" prefWidth="104.0" text="Search">
+         <effect>
+            <Glow level="0.52">
+               <input>
+                  <InnerShadow />
+               </input>
+            </Glow>
+         </effect></Button>
+   </children>
+</AnchorPane>

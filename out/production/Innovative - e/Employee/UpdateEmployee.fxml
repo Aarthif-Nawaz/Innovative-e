@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="emp_pane2" prefHeight="810.0" prefWidth="1123.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Employee.employeeOptions">
+   <children>
+      <Button fx:id="Main" layoutX="273.0" layoutY="718.0" mnemonicParsing="false" onAction="#mainpage1" prefHeight="48.0" prefWidth="198.0" text="Go Back">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="up_emp" layoutX="29.0" layoutY="718.0" mnemonicParsing="false" onAction="#updateEmployee" prefHeight="48.0" prefWidth="198.0" text="Update Employee">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="227.0" layoutY="106.0" prefHeight="41.0" prefWidth="212.0" text="Choose Employee ID" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="33.0" prefHeight="41.0" prefWidth="222.0" text="Update Employee" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="emp_search" layoutX="690.0" layoutY="111.0" mnemonicParsing="false" onAction="#searchEmployee" prefHeight="31.0" prefWidth="117.0" text="Search" />
+      <TextField fx:id="search" layoutX="456.0" layoutY="106.0" prefHeight="41.0" prefWidth="212.0" promptText="Enter Employee ID" />
+      <DatePicker fx:id="edob" layoutX="425.0" layoutY="346.0" prefHeight="31.0" prefWidth="274.0" promptText="Enter DOB" />
+      <Label alignment="CENTER" layoutX="236.0" layoutY="265.0" prefHeight="51.0" prefWidth="180.0" text="Employee Name" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="id" layoutX="425.0" layoutY="202.0" prefHeight="31.0" prefWidth="274.0" promptText="Enter Employee ID" />
+      <Label alignment="CENTER" layoutX="277.0" layoutY="349.0" prefHeight="25.0" prefWidth="127.0" text="D.O.B" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ename" layoutX="425.0" layoutY="275.0" prefHeight="31.0" prefWidth="274.0" promptText="Enter Employee Name" />
+      <Label alignment="CENTER" layoutX="236.0" layoutY="205.0" prefHeight="25.0" prefWidth="158.0" text="Employee ID" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="251.0" layoutY="419.0" prefHeight="26.0" prefWidth="150.0" text="Email" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="eemail" layoutX="425.0" layoutY="416.0" prefHeight="31.0" prefWidth="274.0" promptText="Enter Employee Email" />
+      <Label alignment="CENTER" layoutX="215.0" layoutY="467.0" prefHeight="60.0" prefWidth="199.0" text="Telephone Number" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="etel" layoutX="425.0" layoutY="481.0" prefHeight="31.0" prefWidth="274.0" promptText="Enter Employee Telephone Number" />
+      <Label alignment="CENTER" layoutX="198.0" layoutY="558.0" prefHeight="60.0" prefWidth="214.0" text="Residential Address" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="eres" layoutX="425.0" layoutY="548.0" prefHeight="80.0" prefWidth="274.0" promptText="Enter Employee Residential Address" />
+   </children>
+</AnchorPane>

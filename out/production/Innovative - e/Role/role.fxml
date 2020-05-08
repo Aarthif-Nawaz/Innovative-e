@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="role_pane" prefHeight="834.0" prefWidth="1182.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Role.role">
+   <children>
+      <Button fx:id="role_back" layoutX="33.0" layoutY="23.0" mnemonicParsing="false" onAction="#mainpage" prefHeight="42.0" prefWidth="140.0" text="Go Back">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="refresh_role1" layoutX="947.0" layoutY="721.0" mnemonicParsing="false" onAction="#refresh" prefHeight="56.0" prefWidth="213.0" text="Refresh">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="role_update" layoutX="439.0" layoutY="714.0" mnemonicParsing="false" onAction="#update_role" prefHeight="56.0" prefWidth="195.0" text="Update Role">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="role_delete" layoutX="229.0" layoutY="714.0" mnemonicParsing="false" onAction="#delete_role" prefHeight="56.0" prefWidth="195.0" text="Delete Role">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="role_add" layoutX="33.0" layoutY="714.0" mnemonicParsing="false" onAction="#add_role" prefHeight="56.0" prefWidth="180.0" text="Add Role">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="role_search" layoutX="33.0" layoutY="86.0" prefHeight="49.0" prefWidth="368.0" promptText="Search Role By ID">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </TextField>
+      <TableView fx:id="table" layoutX="24.0" layoutY="205.0" prefHeight="470.0" prefWidth="924.0">
+         <columns>
+            <TableColumn fx:id="tableid" prefWidth="113.0" text="Role ID" />
+            <TableColumn fx:id="tablename" prefWidth="142.0" text="Role Name" />
+            <TableColumn fx:id="tabledob" prefWidth="142.0" text="Employee ID" />
+            <TableColumn fx:id="tableemail" prefWidth="142.0" text="Employee Name" />
+            <TableColumn fx:id="tabletp" prefWidth="186.0" text="Employee Hours Worked" />
+            <TableColumn fx:id="tableres" prefWidth="198.0" text="Calculate Hourly Pay" />
+         </columns>
+      </TableView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="549.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Login/role.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="search_role" layoutX="424.0" layoutY="85.0" mnemonicParsing="false" onAction="#searchRole" prefHeight="49.0" prefWidth="109.0" text="Search">
+         <effect>
+            <Glow level="0.48">
+               <input>
+                  <InnerShadow />
+               </input>
+            </Glow>
+         </effect></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="emp_pane" prefHeight="828.0" prefWidth="637.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Employee.employeeOptions">
+   <children>
+      <Button fx:id="Main1" layoutX="305.0" layoutY="642.0" mnemonicParsing="false" onAction="#mainpage1" prefHeight="44.0" prefWidth="180.0" text="Go Back">
+         <font>
+            <Font name="Britannic Bold" size="19.0" />
+         </font>
+      </Button>
+      <Label layoutX="37.0" layoutY="46.0" prefHeight="51.0" prefWidth="180.0" text="Add Employee" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="add_emp" layoutX="36.0" layoutY="642.0" mnemonicParsing="false" onAction="#addEmployee" prefHeight="44.0" prefWidth="180.0" text="Add Employee">
+         <font>
+            <Font name="Britannic Bold" size="19.0" />
+         </font>
+      </Button>
+      <TextField fx:id="eres" layoutX="221.0" layoutY="486.0" prefHeight="80.0" prefWidth="274.0" promptText="Enter Employee Residential Address" />
+      <Label alignment="CENTER" layoutX="-6.0" layoutY="496.0" prefHeight="60.0" prefWidth="214.0" text="Residential Address" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="etel" layoutX="221.0" layoutY="419.0" prefHeight="31.0" prefWidth="274.0" promptText="Enter Employee Telephone Number" />
+      <Label alignment="CENTER" layoutX="11.0" layoutY="405.0" prefHeight="60.0" prefWidth="199.0" text="Telephone Number" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="eemail" layoutX="221.0" layoutY="354.0" prefHeight="31.0" prefWidth="274.0" promptText="Enter Employee Email" />
+      <Label alignment="CENTER" layoutX="11.0" layoutY="357.0" prefHeight="26.0" prefWidth="150.0" text="Email" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="7.0" layoutY="143.0" prefHeight="25.0" prefWidth="158.0" text="Employee ID" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ename" layoutX="221.0" layoutY="213.0" prefHeight="31.0" prefWidth="274.0" promptText="Enter Employee Name" />
+      <Label alignment="CENTER" layoutX="10.0" layoutY="287.0" prefHeight="25.0" prefWidth="127.0" text="D.O.B" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="id" layoutX="221.0" layoutY="140.0" prefHeight="31.0" prefWidth="274.0" promptText="Enter Employee ID" />
+      <Label alignment="CENTER" layoutY="203.0" prefHeight="51.0" prefWidth="180.0" text="Employee Name" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="edob" layoutX="221.0" layoutY="284.0" prefHeight="31.0" prefWidth="274.0" promptText="Enter DOB" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,59 @@
+#login_pane{
+    -fx-background-image : url("login.jpg") no-repeat;
+    -fx-background-size : cover;
+    -fx-opacity : 1.0;
+}
+#login_lbl{
+    -fx-color : white;
+    -fx-font-style : italic;
+    -fx-font-weight: bold;
+    -fx-font-size : 35px;
+}
+#login_btn{
+    -fx-background-color : orange;
+    -fx-color : white;
+    -fx-cursor : pointer;
+    -fx-color : white;
+    -fx-border-width : 2px;
+    -fx-border-radius : 150px;
+
+}
+#sign_pane{
+     -fx-background-image : url("login.jpg") no-repeat;
+     -fx-background-size : cover;
+     -fx-opacity : 1.0;
+}
+#login_pan:hover{
+    -fx-background-color : red;
+}
+#sign_pane:hover{
+    -fx-background-color : red;
+}
+#sign{
+    -fx-background-color : orange;
+    -fx-color : white;
+    -fx-cursor : pointer;
+    -fx-color : white;
+    -fx-border-width : 2px;
+    -fx-border-radius : 50px;
+}
+#main{
+     -fx-background-image : url("login.jpg") no-repeat;
+     -fx-background-size : cover;
+     -fx-opacity : 1.0;
+}
+#employee, #customer, #role, #contract{
+    -fx-width:20px;
+    -fx-background-color : orange;
+    -fx-color : white;
+    -fx-cursor : pointer;
+    -fx-color : white;
+    -fx-border-width : 2px;
+    -fx-border-radius : 50px;
+
+}
+#user, #pass{
+    -fx-border : none;
+    -fx-bottom-border-width : 3px;
+    -fx-border-border-color : darkblue;
+}

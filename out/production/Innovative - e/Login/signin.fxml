@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="sign_pane" prefHeight="581.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.login">
+   <children>
+       <ImageView fx:id="sign_image" fitHeight="129.0" fitWidth="196.0" layoutX="187.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@../img/signin.jpg">
+               </Image>
+           </image>
+       </ImageView>
+      <TextField fx:id="user" layoutX="113.0" layoutY="218.0" prefHeight="53.0" prefWidth="373.0" promptText="Enter Userame">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </TextField>
+      <Button fx:id="sign" layoutX="204.0" layoutY="432.0" mnemonicParsing="false" onAction="#Button" prefHeight="44.0" prefWidth="179.0" text="Sign in">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="pass" layoutX="113.0" layoutY="308.0" prefHeight="53.0" prefWidth="373.0" promptText="Enter Password">
+         <font>
+            <Font name="Corbel Bold Italic" size="24.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>

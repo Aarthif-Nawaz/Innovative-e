@@ -1,0 +1,13 @@
+#cus_pane, #cus_pane1, #cus_pane2{
+ -fx-background-image : url("tech.jpg");
+ -fx-background-size : cover;
+ -fx-opacity : 1.0;
+}
+#Main, #Main1, #Main2, #up_con, #cadd, #del_cus, #cus_refresh, #cus_search{
+    -fx-background-color : orange;
+    -fx-color : white;
+    -fx-cursor : pointer;
+    -fx-color : white;
+    -fx-border-width : 2px;
+    -fx-border-radius : 350px;
+}

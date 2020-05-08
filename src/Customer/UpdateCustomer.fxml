@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="cus_pane2" prefHeight="857.0" prefWidth="1183.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Customer.customerOptions">
+   <children>
+      <Button fx:id="Main2" layoutX="273.0" layoutY="748.0" mnemonicParsing="false" onAction="#mainpage1" prefHeight="48.0" prefWidth="198.0" text="Go Back">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="up_con" layoutX="42.0" layoutY="748.0" mnemonicParsing="false" onAction="#updateCustomer" prefHeight="48.0" prefWidth="198.0" text="Update Customer">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="33.0" layoutY="21.0" prefHeight="55.0" prefWidth="232.0" text="Update Customer" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="cdob" layoutX="348.0" layoutY="331.0" prefHeight="31.0" prefWidth="269.0" promptText="Enter Customer DOB" />
+      <TextField fx:id="cres" layoutX="348.0" layoutY="553.0" prefHeight="31.0" prefWidth="269.0" promptText="Enter Customer Residential Address" />
+      <TextField fx:id="ctel" layoutX="348.0" layoutY="481.0" prefHeight="31.0" prefWidth="269.0" promptText="Enter Customer Telephone Number" />
+      <TextField fx:id="cemail" layoutX="348.0" layoutY="404.0" prefHeight="31.0" prefWidth="269.0" promptText="Enter Customer Email" />
+      <TextField fx:id="cname" layoutX="348.0" layoutY="263.0" prefHeight="31.0" prefWidth="269.0" promptText="Enter Customer Name" />
+      <Label layoutX="16.0" layoutY="553.0" prefHeight="25.0" prefWidth="305.0" text="Residential Address" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="482.0" prefHeight="25.0" prefWidth="274.0" text="Telephone Number" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="405.0" prefHeight="25.0" prefWidth="269.0" text="Email Address" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="332.0" prefHeight="30.0" prefWidth="313.0" text="D.O.B" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="263.0" prefHeight="26.0" prefWidth="282.0" text="CustomerName" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cid" layoutX="348.0" layoutY="203.0" prefHeight="31.0" prefWidth="269.0" promptText="Enter Customer ID" />
+      <Label layoutX="40.0" layoutY="203.0" prefHeight="26.0" prefWidth="258.0" text="CustomerID" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="search" layoutX="397.0" layoutY="103.0" prefHeight="31.0" prefWidth="305.0" promptText="Enter Customer ID" />
+      <Label layoutX="114.0" layoutY="103.0" prefHeight="26.0" prefWidth="258.0" text="Choose Customer ID" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="cus_search" layoutX="733.0" layoutY="95.0" mnemonicParsing="false" onAction="#searchCustomer" prefHeight="30.0" prefWidth="198.0" text="Search">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

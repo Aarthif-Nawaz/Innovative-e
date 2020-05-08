@@ -1,0 +1,15 @@
+#emp_pane , #emp_pane1, #emp_pane2{
+    -fx-background-image : url("tech.jpg");
+    -fx-background-size : cover;
+    -fx-opacity : 1.0;
+}
+#Main, #Main1, #Main2, #add_emp, #del_emp, #up_emp, #emp_refresh, #emp_search {
+    -fx-background-color : orange;
+    -fx-color : white;
+    -fx-cursor : pointer;
+    -fx-color : white;
+    -fx-border-width : 2px;
+    -fx-border-radius : 350px;
+
+}
+#

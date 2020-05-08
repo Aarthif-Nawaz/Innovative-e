@@ -1,0 +1,23 @@
+#role_pane, #role_pane1, #role_pane2{
+    -fx-background-image : url("tech.jpg");
+    -fx-background-size : cover;
+    -fx-opacity : 1.0;
+}
+#Main, #Main1, #Main2, #add_role, #del_role, #up_role{
+    -fx-background-color : orange;
+    -fx-color : white;
+    -fx-cursor : pointer;
+    -fx-color : white;
+    -fx-border-width : 2px;
+    -fx-border-radius : 350px;
+}
+#search_role, #refresh_role1, #search_id, #calculate_id, #cal_id{
+    -fx-background-color : orange;
+    -fx-color : white;
+    -fx-cursor : pointer;
+    -fx-color : white;
+    -fx-border-width : 2px;
+    -fx-border-radius : 350px;
+
+}
+
